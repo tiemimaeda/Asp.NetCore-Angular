@@ -1,0 +1,16 @@
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/GameTop
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/GameTop.deps.json
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/GameTop.runtimeconfig.json
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/GameTop.runtimeconfig.dev.json
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/GameTop.dll
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/ref/GameTop.dll
+/home/tiemi/Desktop/ConsoleCore/GameTop/bin/Debug/net5.0/GameTop.pdb
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.csprojAssemblyReference.cache
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.GeneratedMSBuildEditorConfig.editorconfig
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.AssemblyInfoInputs.cache
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.AssemblyInfo.cs
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.csproj.CoreCompileInputs.cache
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.dll
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/ref/GameTop.dll
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.pdb
+/home/tiemi/Desktop/ConsoleCore/GameTop/obj/Debug/net5.0/GameTop.genruntimeconfig.cache
