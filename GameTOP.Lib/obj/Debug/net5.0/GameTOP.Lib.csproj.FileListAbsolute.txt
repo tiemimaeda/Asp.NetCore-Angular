@@ -1,0 +1,15 @@
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\bin\Debug\net5.0\GameTOP.Lib.deps.json
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\bin\Debug\net5.0\GameTOP.Lib.dll
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\bin\Debug\net5.0\ref\GameTOP.Lib.dll
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\bin\Debug\net5.0\GameTOP.Lib.pdb
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\bin\Debug\net5.0\GameTOP.Interface.dll
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\bin\Debug\net5.0\GameTOP.Interface.pdb
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.csprojAssemblyReference.cache
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.AssemblyInfoInputs.cache
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.AssemblyInfo.cs
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.csproj.CoreCompileInputs.cache
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.csproj.CopyComplete
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.dll
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\ref\GameTOP.Lib.dll
+C:\Users\pmaeda\Documents\Exercicios\Asp.NetCore-Angular\GameTOP.Lib\obj\Debug\net5.0\GameTOP.Lib.pdb
