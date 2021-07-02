@@ -1,9 +1,14 @@
-<form class="form-inline">
-  <form class="d-flex mb-3">
-    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Buscar</button>
-  </form>
-</form>
+<div class="form-inline">
+  <div class="d-flex mb-3">
+    <input class="form-control me-2" 
+    type="text" 
+    placeholder="Buscar" 
+    aria-label="Search"
+    [(ngModel)] = "filtroLista"
+    >
+  </div>
+</div>
+<h4>Filtro: {{filtroLista}}</h4>
 <table class="table table-striped">
   <thead class="table table-light">
     <tr>
@@ -23,7 +28,7 @@
     </tr>
   </thead>
   <tbody *ngIf="eventos && eventos.length">
-    <tr *ngFor="let evento of eventos">
+    <tr *ngFor="let evento of eventosFiltrados">
       <td>
         <img *ngIf="mostrarImagem"
           src="http://localhost:5000/img/{{evento.imagemURL}}"
@@ -33,9 +38,9 @@
       <td>{{evento.eventoId}}</td>
       <td>{{evento.tema}}</td>
       <td>{{evento.local}}</td>
-      <td>{{evento.data}}</td>
+      <td>{{evento.dataEvento}}</td>
       <td>{{evento.qtdPessoas}}</td>
-      <td>{{evento.lote}}</td>
+      <td>{{evento.lote | uppercase}}</td>
       <td>
         <button class="btn btn-success"></button>
         <button class="btn btn-danger"></button>
