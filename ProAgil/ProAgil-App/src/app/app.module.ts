@@ -18,10 +18,10 @@ import { DateTimeFormatPipePipe } from './_helps/DateTimeFormatPipe.pipe';
 
 @NgModule({
   declarations: [		
-      AppComponent,
-      EventosComponent,
-      NavComponent,
-      DateTimeFormatPipePipe
+    AppComponent,
+    EventosComponent,
+    NavComponent,
+    DateTimeFormatPipePipe
    ],
   imports: [
     BrowserModule,
