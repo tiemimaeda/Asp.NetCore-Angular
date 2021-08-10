@@ -6,6 +6,7 @@ import { EventoService } from '../_services/evento.service';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { ptBrLocale } from 'ngx-bootstrap/locale';
+import { templateJitUrl } from '@angular/compiler';
 
 defineLocale('pt-br', ptBrLocale);
 
@@ -18,10 +19,10 @@ export class EventosComponent implements OnInit {
 
   eventosFiltrados!: Evento[];
   eventos!: Evento[];
+  evento!: Evento;
   imagemLargura = 50;
   imagemMargem = 2;
   mostrarImagem = false;
-  modalRef!: BsModalRef;
   registerForm!: FormGroup;
 
   _filtroLista!: string;
@@ -43,8 +44,9 @@ export class EventosComponent implements OnInit {
     this.eventosFiltrados = this.filtroLista ? this.filtrarEventos(this.filtroLista) : this.eventos;
   }
 
-  openModal(template: TemplateRef<any>) {
-    this.modalRef = this.modalService.show(template);
+  openModal(template: any) {
+    this.registerForm.reset();
+    template.show();
   }
 
   ngOnInit() {
@@ -76,8 +78,19 @@ export class EventosComponent implements OnInit {
     })
   }
 
-  salvarAlteracao() {
-
+  salvarAlteracao(template: any) {
+    if (this.registerForm.valid) {
+      this.evento = Object.assign({}, this.registerForm.value);
+      this.eventoService.postEvento(this.evento).subscribe(
+        (novoEvento) => {
+          console.log(novoEvento);
+          template.hide();
+          this.getEventos();
+        }, error => {
+          console.log(error)
+        }
+      );
+    }
   }
 
 
